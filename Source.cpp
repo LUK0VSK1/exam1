@@ -6,8 +6,8 @@ using namespace std;
 int main() {
 	setlocale(0, "");
 
-	int d;//різниця
-	int firstNum;//а1
+	int d;//СЂС–Р·РЅРёС†СЏ
+	int firstNum;//a1
 	int n;
 
 	cout << "d " << " firstNum " << " n " << endl;
@@ -16,14 +16,14 @@ int main() {
 
 	cin >> d >> firstNum >> n;
 
-	int aN;//a n-ого номера
+	int aN;//a n-РѕРіРѕ РЅРѕРјРµСЂР°
 
 	aN = firstNum + (n-1) / d;
 
 	int sumNProgres;
 	
-	sumNProgres = ((2*firstNum+(n-1)*d)/2)*n;//сума перших n чисел
+	sumNProgres = ((2*firstNum+(n-1)*d)/2)*n;//СЃСѓРјР° РїРµСЂС€РёС… n С‡РёСЃРµР»
 
-	cout << " n-го члена прогресії " << aN << endl << " сума перших n чисел " << sumNProgres;	
+	cout << " n-РіРѕ С‡Р»РµРЅР° РїСЂРѕРіСЂРµСЃС–С— " << aN << endl << " СЃСѓРјР° РїРµСЂС€РёС… n С‡РёСЃРµР» " << sumNProgres;	
 	return 0;
 }
